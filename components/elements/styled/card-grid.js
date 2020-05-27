@@ -22,10 +22,6 @@ const StyledCardGrid = styled.section`
 
     .card-wrapper {
       ${tw`shadow-md md:rounded-lg hover:shadow-xl`};
-      .gatsby-image-wrapper {
-        ${tw`w-full`};
-        max-height: 450px;
-      }
 
       .card-content {
         .type {

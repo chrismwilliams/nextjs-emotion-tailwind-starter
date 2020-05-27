@@ -24,7 +24,7 @@ export default function AboutPage() {
                 <li>
                   <a
                     className="next"
-                    href="https://www.gatsbyjs.org/"
+                    href="https://www.nextjs.org/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

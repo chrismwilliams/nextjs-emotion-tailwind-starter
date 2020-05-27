@@ -1,13 +1,15 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Starter Logo" src="./public/icon.png" width="80" />
-  </a>
+  <img alt="Starter Logo" src="./public/icon.png" width="80" />
 </p>
 <h1 align="center">
   NextJS Emotion Tailwind Starter
 </h1>
 
 A starter template to create a lightening-fast static website. Comes pre-built with NextJS, Emotion, and Tailwind to get you up and running quickly.
+
+[Demo](nextjs-emotion-tailwind-starter.now.sh) hosted on Vercel.
+
+[![Deploy to Vercel](/button)](/import/project?template=https://github.com/chrismwilliams/nextjs-emotion-tailwind-starter)
 
 ## Features
 
