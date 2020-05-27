@@ -9,7 +9,7 @@ A starter template to create a lightening-fast static website. Comes pre-built w
 
 [Demo](nextjs-emotion-tailwind-starter.now.sh) hosted on Vercel.
 
-[![Deploy to Vercel](/button)](/import/project?template=https://github.com/chrismwilliams/nextjs-emotion-tailwind-starter)
+[![Deploy to Vercel](/button)](https://vercel.com/import/project?template=https://github.com/chrismwilliams/nextjs-emotion-tailwind-starter)
 
 ## Features
 
