@@ -1,21 +1,28 @@
 {
   "name": "nextjs-emotion-tailwind-starter",
+  "description": "A starter NextJS site which includes Emotion and Tailwind",
   "version": "0.1.0",
-  "private": true,
+  "author": "Chris Williams",
+  "repository": "https://github.com/chrismwilliams/nextjs-emotion-tailwind-starter",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.4.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
-  },
-  "devDependencies": {
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "next": "9.4.2",
+    "next-seo": "^4.5.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-ga": "^2.7.0",
+    "react-icons": "^3.10.0",
     "twin.macro": "^1.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
