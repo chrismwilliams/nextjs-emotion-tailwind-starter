@@ -8,6 +8,6 @@ export default {
     type: "website",
     locale: "en-GB",
     description: "A NextJS template with Emotion and TailwindCSS",
-    url: "",
+    url: "https://nextjs-emotion-tailwind-starter.now.sh/",
   },
 };
