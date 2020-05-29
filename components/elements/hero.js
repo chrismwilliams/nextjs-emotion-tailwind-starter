@@ -518,13 +518,13 @@ export default function Hero() {
         <div className="tech">
           <ul>
             <li>
-              <img src="/images/nextjs.png" alt="" />
+              <img src="/images/nextjs.png" alt="Next JS logo" />
             </li>
             <li>
-              <img src="/images/emotion.png" alt="" />
+              <img src="/images/emotion.png" alt="Emotion, CSS in JS logo" />
             </li>
             <li>
-              <img src="/images/tailwind.png" alt="" />
+              <img src="/images/tailwind.png" alt="Tailwind CSS logo" />
             </li>
           </ul>
         </div>

@@ -86,3 +86,5 @@ The [tailwind docs](https://tailwindcss.com) are a great resource to get you sta
 - Favicon. Replace the current favicon (`public/favicon.ico`) with your own.
 
 - Analytics. Add your google analytics id in an .env file with the key `GOOGLE_ANALYTICS_ID`.
+
+- Find out more on working with .env files with NextJS [here](https://nextjs.org/docs/basic-features/environment-variables) and how to add your own to `next.config.js`.
