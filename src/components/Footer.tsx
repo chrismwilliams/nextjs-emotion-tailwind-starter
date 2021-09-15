@@ -1,5 +1,4 @@
 import StyledFooter from "./styled/footer";
-import SocialList from "./elements/social-list";
 
 export default function Footer() {
   return (
@@ -10,7 +9,6 @@ export default function Footer() {
         </svg>
         NextJS Emotion Tailwind Starter
       </p>
-      <SocialList />
       <p className="author">
         Created by{" "}
         <a
