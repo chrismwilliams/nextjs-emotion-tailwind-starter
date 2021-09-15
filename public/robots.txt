@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https://nextjs-emotion-tailwind-starter.vercel.app/
+
+# Sitemaps
+Sitemap: https://nextjs-emotion-tailwind-starter.vercel.app/sitemap.xml
