@@ -1,7 +1,7 @@
 {
   "name": "nextjs-emotion-tailwind-starter",
   "description": "A starter NextJS site which includes Emotion and Tailwind",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Chris Williams",
   "repository": "https://github.com/chrismwilliams/nextjs-emotion-tailwind-starter",
   "license": "MIT",
