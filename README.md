@@ -7,7 +7,7 @@
 
 A starter template to create a lightening-fast static website. Comes pre-built with NextJS, Emotion, and Tailwind to get you up and running quickly.
 
-[Demo](nextjs-emotion-tailwind-starter.now.sh) hosted on Vercel.
+[Demo](https://nextjs-emotion-tailwind-starter.vercel.app/) hosted on Vercel.
 
 [![Deploy to Vercel](/button)](https://vercel.com/import/project?template=https://github.com/chrismwilliams/nextjs-emotion-tailwind-starter)
 
@@ -16,7 +16,7 @@ A starter template to create a lightening-fast static website. Comes pre-built w
 - React framework [NextJS](https://www.nextjs.org/)
 - CSS-in-JS library [Emotion](https://emotion.sh/) for your styled components
 - CSS utility framework [Tailwind CSS](https://tailwindcss.com/docs/what-is-tailwind/) to quickly add style
-- Google Analytics
+- Typescript
 - Simple SEO
 
 ## Getting started
@@ -32,16 +32,22 @@ _Navigate into directory_
 
 ```sh
 # install dependencies
+npm install
+
 yarn install
 
 # develop -> localhost:3000
+npm run dev
+
 yarn dev
 
 # build for production
+npm run build
+
 yarn build
 ```
 
-**Using Emotion & Tailwind**
+## Using Emotion & Tailwind
 
 With the CSS utility library Tailwind you can quickly add styles and responsive design, all without having to write any css. Emotion allows you to name and style elements within your js files.
 
@@ -73,11 +79,11 @@ return (
 
 The [tailwind docs](https://tailwindcss.com) are a great resource to get you started. The starter uses [twin.macro](https://github.com/ben-rogerson/twin.macro) which also has some additional helpful utilities.
 
-**Customisation**
+## Customisation
 
 - [Tailwind config](https://tailwindcss.com/docs/configuration). Open up the `tailwind.config.js` file to set your own project preferences & requirements, such as break-points, colours, and fonts.
 
-- A layout component (`components/elements/layout.js`) is used for setting a standardised default layout.
+- A layout component (`src/components/Layout.tsx`) is used for setting a standardised default layout. Global css styles can be found in `src/components/styled/baseStyles.ts`
 
 - Remember to add any chosen font(s) into `tailwind.config.js`, either the fonts sans/serif array, in order to use tailwind utilities.
 
@@ -85,6 +91,4 @@ The [tailwind docs](https://tailwindcss.com) are a great resource to get you sta
 
 - Favicon. Replace the current favicon (`public/favicon.ico`) with your own.
 
-- Analytics. Add your google analytics id in an .env file with the key `GOOGLE_ANALYTICS_ID`.
-
-- Find out more on working with .env files with NextJS [here](https://nextjs.org/docs/basic-features/environment-variables) and how to add your own to `next.config.js`.
+- Find out more on working with .env files with NextJS [here](https://nextjs.org/docs/basic-features/environment-variables).
