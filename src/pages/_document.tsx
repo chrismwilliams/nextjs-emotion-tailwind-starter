@@ -24,10 +24,15 @@ export default class MyDocument extends Document<Props> {
     return (
       <Html>
         <Head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Aleo&display=optional"
+            rel="stylesheet"
+          />
           <style
             data-emotion-css={this.props.ids.join(" ")}
             dangerouslySetInnerHTML={{ __html: this.props.css }}
           />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

@@ -1,7 +1,7 @@
 import tw, { styled } from "twin.macro";
 
 const StyledFooter = styled.footer`
-  ${tw`flex flex-col items-center justify-center mt-40 py-6 text-3xl text-gray-600 border-t-2`};
+  ${tw`grid mt-12 py-6 text-3xl text-gray-600 border-t-2 gap-y-2 place-items-center`};
   a {
     ${tw`hover:text-yellow-500`};
   }
@@ -12,7 +12,7 @@ const StyledFooter = styled.footer`
     }
   }
   .author {
-    ${tw`mt-2 text-sm font-light`};
+    ${tw`text-sm font-light`};
     a {
       ${tw`tracking-wider border-b-2 border-yellow-500`};
     }

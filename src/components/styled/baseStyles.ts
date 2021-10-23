@@ -1,16 +1,27 @@
-import tw, { css } from 'twin.macro'
+import tw, { css, theme } from 'twin.macro'
 
 const baseStyles = css`
+  .light {
+    --text-primary: ${theme`colors.gray.700`};
+    --bg-primary: ${theme`colors.white`};
+  }
+  
+  .dark {
+    --text-primary: ${theme`colors.gray.200`};
+    --bg-primary: ${theme`colors.gray.900`};
+  }
+
   body {
-    ${tw`font-sans font-normal`};
+    ${tw`min-h-screen font-sans font-normal text-primary`};
 
     #__next {
-      ${tw`max-w-4xl mx-auto`};
+      ${tw`grid max-w-4xl mx-auto`};
+      
+      #skip-link {
+        ${tw`sr-only focus:(not-sr-only fixed left-1 top-1.5)`};
+      }
     }
 
-    #skip-link {
-      ${tw`sr-only focus:(not-sr-only fixed left-1 top-1.5)`};
-    }
 
   }
 `
