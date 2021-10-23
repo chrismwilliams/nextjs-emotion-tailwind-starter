@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import StyledNav from "./styled/nav";
 
-export default function header() {
+export default function Nav() {
   return (
     <StyledNav aria-label="Main Navigation">
       <Link href="/">
